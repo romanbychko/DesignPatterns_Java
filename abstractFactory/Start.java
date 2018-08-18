@@ -6,16 +6,15 @@ public class Start {
     
     public static void main(String[] args) {
       
-        if (true){
+        if (true) {
             factory = new RussianFactory();
-        }else{
+        } else {
             factory = new USAFactory();
         }
         
         
         factory.createAircraft();
-        factory.createCar();
-        
+        factory.createCar();  
         
     }
 
