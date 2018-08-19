@@ -8,7 +8,6 @@ public class Start {
     
     public static void main(String[] args) {
         
-        
         boolean showBorder = true;
         
         if (!showBorder){
@@ -21,11 +20,9 @@ public class Start {
             button = new BorderDecorator(new Button());
         }
         
-        
         window.draw();
         textView.draw();
         button.draw();
-        
         
     }
 
